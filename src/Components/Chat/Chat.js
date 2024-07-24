@@ -89,8 +89,6 @@ const Chat = () => {
         };
     }, []);
 
-    console.log("messageList===>>", messageList);
-
     return (
         <ChatWindow $isDark={isDark}>
             <ChatHeader $isDark={isDark}>
